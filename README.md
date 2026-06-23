@@ -28,5 +28,3 @@ A personal operating system featuring my interests
 * Creating a personalized user interface
 
 
-
-Shubh Dalmia
