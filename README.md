@@ -97,26 +97,6 @@ Space Facts is an interactive application that generates interesting facts about
 3. Read the generated fact.
 4. Continue clicking the button to discover additional facts.
 
----
-
-## Technologies Used
-
-* HTML
-* CSS
-* JavaScript
-
 ## Creator
 
 Shubh Dalmia
-
-SPACE OS was created as part of Hack Club's personalOS project and reflects my interest in space exploration, engineering, and technology.
-
-## Future Improvements
-
-Planned improvements include:
-
-* Additional space missions
-* Expanded fact database
-* More interactive applications
-* Improved visual effects and animations
-* Additional educational content
