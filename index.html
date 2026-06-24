@@ -1,62 +1,173 @@
 
 <!DOCTYPE html>
 <html>
-  <body style=" background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjZzMXQyejNnMHkxOWhjZmozYm1sZTJ3d253OXFuNzIwZmswZmZycSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SVCSsoKU5v6ZJLk07n/giphy.gif)  ; background-size: cover">
+  <body style=" background-image: url(https://cdn.esahubble.org/archives/images/screen/heic0910e.jpg)  ; background-size: cover">
+    
+    
+   
+       <div class="window" id="welcome" 
+    style="top: 60%; left: 50%; transform: translate(-50%, -50%)">
+    <div id="welcomeheader"
+      style="width: 100%; display: flex; align-items: center; cursor: move; justify-content: center; margin-top: 8px;">
+      <p style="margin: 0px; color: #fff; font-weight: 500">Welcome</p> 
+      </div>
+  <div style="position: absolute; width: 100%; display: flex; backdrop-filter: blur(10px); background-color: rgba(0, 0, 0, 0.25); color: #fff; justify-content: space-between;" >
+      <h1 style="color: rgb(255, 255, 255)" >----SPACE OS----</h1>
+    </div>
+    <br> <br>  <br><br>  <br>
+      <h2 style="color: #4CC9F0">Introduction</h2>
+      <p style="color: #EAEAEA" >Welcome to Space OS.This interactive operating system showcases some of the most important missions in the history of space exploration. Discover how humanity progressed from the launch of Sputnik 1 to lunar landings, Mars exploration, and modern missions such as Artemis 2 <br> <br>Enjoy!! ~Shubh Dalmia</p><br>
+      <img style="width:250px; height: 250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGYkOYS9242XNStnFYzSmNKl-K8Sv2jZI-GOa7awYvRtZwrbrUGQoifE3MWdBZUzhYM6vJa3fKuNRyjNxX8LfLRakpza1WWmO5Qe3UK2geZA&s=10" alt="Apollo 11 Moon Landing"> <br> 
+      <a href="https://www.nasa.gov/mission/apollo-11/">Learn More ABout Apollo 11</a><br><br>
+    </div>
+  </div>
+
+
+
+
     <div
-    style="position: absolute; width: 100%; display: flex; backdrop-filter: blur(10px); background-color: rgba(0, 0, 0, 0.125); color: #cfabab; justify-content: space-between; gap: 32px;">
-        <p
-          style="margin-left: 16px; font-weight: 700; background-color: rgba(256, 256, 256, 0.125); padding: 4px 12px; border-radius: 16px;">
-            SDOS
-        </p>
+    style="position: absolute; width: 98%; display: flex; backdrop-filter: blur(10px); justify-content: space-between; background-color:#0D1B2A; color: #ffffff; padding: 12px 0; gap: 32px;">
+        <div style="display:flex; align-items:center; gap:8px; margin-left:16px;">
+
+  <div id="welcomeopen" class="openbutton"></div>
+
+  <div id="welcomeclose" class="closebutton"></div>
+
+  <p style="font-weight:700; background-color:rgba(256,256,256,0.125);
+            padding:4px 12px; border-radius:16px; margin:0;">
+    SPACE OS
+  </p>
+
+</div>
         <p style="margin-left: 16px; background-color: rgba(256, 256, 256, 0.25); padding: 4px 12px; border-radius: 16px;">
-            "You miss 100% of the shots you don't take. - Wayne Gretzky" - Michael Scott
+            "Exploring Humanity's Journey Beyond Earth"
         </p>
-        <p id="timeElement"
-          style="margin-right: 16px; background-color: rgba(256, 256, 256, 0.125); padding: 4px 12px; border-radius: 16px;">
+        <p id="timeElement" style="margin-right: 16px; background-color: rgba(256, 256, 256, 0.125); padding: 4px 12px; border-radius: 16px;">
             Time
         </p>
     </div>
-    <div style="border: 4mm ridge rgb(211 220 50 / 0.6); width: 250px; border-radius: 16px ; position: absolute ; top: 110%; left: 50%; transform: translate(-50%, -50%)">
-    <div style="position: absolute; width: 100%; display: flex; backdrop-filter: blur(10px); background-color: rgba(0, 0, 0, 0.25); color: #fff; justify-content: space-between;">
-      <h1 style="color: rgb(255, 255, 255)" >WELCOME TO MY OS</h1>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-      <h2 style="color: rgb(59, 249, 91)"">Introduction</h2>
-      <p style="color: rgb(136, 19, 9)" >Hi there, I'm <strong> Shubh Dalmia</strong><br>and these are my hobbies and interests.</p>
     
-      <br>
-      <img style="width:250px; height: 250px" src="data:image/jpeg;base64,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" alt="SpaceX Falcon 9">
-      <br>
-      <a href="https://www.spacex.com/vehicles/falcon-9">SpaceX Falcon 9 </a>
-      <br>
-      <br>
-      <img style="width: 250px; height: 250px"  src="https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2024/11/24/nrqoxx9as35r5ry8ashm/max-verstapen-2024-f1-world-champion-four" alt="Max Verstappen">
-      <br>
-      <a href="https://www.britannica.com/biography/Max-Verstappen">Max Verstappen Biography</a>
-      <br>
-      <br>
-      <img style="width: 250px; height: 250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnnlNfMhApE1AMFr-Ou9FNa-SXJ3RAIczg9w&s">
-      <br>
-      <a href="https://www.youtube.com/watch?v=QWfOdfub52k">The Office Intro</a>
-      <br>
-      <br>
-      <img style="width: 250px; height: 250px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl8slyvZPY1WFl1z5md1S8AjRvovy_pg2BEQ&s">
-      <br>
-      <a href="https://en.wikipedia.org/wiki/Darth_Vader"> Darth Vader </a>
-    </div>
 
-    <script>
-      function updateTime() {
-        var currentTime = new Date().toLocaleString();
-        var timeText = document.querySelector("#timeElement");
-        timeText.innerHTML = currentTime;
-    }
-    setInterval(updateTime, 1000);
-    </script>
+  <div id="desktopApps" style="padding-top: 100px; ">
+  <div id="app1" style="text-align: center; padding: 16px; width: fit-content ;  ">
+    <img src="data:image/jpeg;base64,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" style="width: 64px; height: 64px; border-radius: 20px;">
+    <p style="margin: 0px; color: #ffffff;"> Space Missions</p>
+  </div>
+</div>
 
+
+
+    
+
+ <div id="notes"
+     style="display: none; position: absolute; z-index: 9; background-color: #3d025b; text-align: center; border: 4mm ridge rgb(211 220 50 / 0.6); width: 500px; border-radius: 16px; top: 100%; left: 50%; transform: translate(-50%, -50%);">
+
+  <div id="notesheader"
+       style="padding: px; cursor: move; z-index: 10; background-color: #000000; color: #fff; width: 100%; display: flex; align-items: center; justify-content: center;">
+
+<div id="notesclose" class="closebutton"></div>
+
+<p style="margin: 0px; color: #fff; font-weight: 500">
+  Space Missions
+</p>
+
+  </div>
+
+  <div style="background-color: #14253D; margin: 6px; border-radius: 12px; padding: 20px; color: #EAEAEA;">
+   <h2>Historic Space Missions</h2>
+
+<h3>Sputnik 1 (USSR, 1957)</h3>
+<p>
+Sputnik 1 was the world's first artificial satellite. Launched by the Soviet Union, it marked the beginning of the Space Age and sparked the Space Race between the USSR and the United States.
+</p>
+<h3>Apollo 11 (USA, 1969)</h3>
+<p>
+Apollo 11 became the first mission to land humans on the Moon. Neil Armstrong and Buzz Aldrin walked on the lunar surface while Michael Collins remained in orbit aboard the command module.
+</p>
+<h3>Voyager 1 (USA, 1977)</h3>
+<p>
+Voyager 1 explored the outer planets and later became the first human-made object to enter interstellar space. It continues to send data back to Earth today.
+</p>
+<h3>Mars Pathfinder (USA, 1997)</h3>
+<p>
+Mars Pathfinder successfully landed on Mars and deployed the Sojourner rover, proving that robotic vehicles could operate on another planet.
+</p>
+<h3>International Space Station (1998–Present)</h3>
+<p>
+The ISS is the largest human-made structure in space and has been continuously inhabited since 2000. It serves as a laboratory for international scientific research.
+</p>
+<h3>Chandrayaan-1 (India, 2008)</h3>
+<p>
+Chandrayaan-1 was India's first lunar mission. It played a major role in confirming the presence of water molecules on the Moon, one of the most important lunar discoveries of the century.
+</p>
+<h3>Mangalyaan / Mars Orbiter Mission (India, 2013)</h3>
+<p>
+India became the first nation to reach Mars orbit on its first attempt. Mangalyaan demonstrated ISRO's engineering capabilities at an exceptionally low mission cost.
+</p>
+<h3>Rosetta (Europe, 2014)</h3>
+<p>
+The European Space Agency's Rosetta mission became the first spacecraft to orbit and land a probe on a comet, helping scientists understand the origins of the Solar System.
+</p>
+
+<h3>Chandrayaan-3 (India, 2023)</h3>
+<p>
+Chandrayaan-3 successfully achieved a soft landing near the Moon's south pole. India became the fourth country to land on the Moon and the first to reach the lunar south polar region.
+</p>
+
+<h3>Artemis Program (USA, Present)</h3>
+<p>
+NASA's Artemis program aims to return humans to the Moon, establish a sustainable lunar presence, and prepare for future missions to Mars.
+</p>
+
+  </div> 
+
+</div>
+
+<div id="factsApp" style="text-align: center; padding: 20px; width: fit-content">
+  <img src="https://images.unsplash.com/photo-1462331940025-496dfbfc7564"
+       style="width: 64px; height: 64px; border-radius: 20px;">
+  <p style="margin: 0px; color: #ffffff;">Space Facts</p>
+</div>
+
+<div id="facts"
+     style="display: none; position: absolute; z-index: 9; background-color: #0D1B2A; text-align: center; border: 4mm ridge rgb(76, 201, 240); width: 500px; border-radius: 16px; top: 65%; left: 50%; transform: translate(-50%, -50%);">
+
+  <div id="factsheader"
+       style="padding: 1px; cursor: move; background-color: #000000; color: #fff; width: 100%; display: flex; align-items: center; justify-content: center;">
+
+    <div id="factsclose" class="closebutton"></div>
+
+    <p style="margin: 0px; color: #fff; font-weight: 500">
+      Space Facts
+    </p>
+
+  </div>
+
+  <div style="background-color: white; margin: 6px; border-radius: 12px; padding: 100px; min-height: 200px;">
+
+    <h2 style="color:#4CC9F0;">
+  Space Fact Generator
+</h2>
+
+    <p id="factText"
+    style="cursor:pointer ">
+      Click the button to discover a space fact!
+    </p>
+
+    <button id="factButton">
+      New Fact
+    </button>
+
+  </div>
+
+</div>
+
+     <head>
+  <script type="module" src="./script.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+
+
+     
     </body>
 </html>
